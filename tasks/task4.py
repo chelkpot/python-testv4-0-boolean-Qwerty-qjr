@@ -2,7 +2,8 @@
 
 def solve():
 # Ниже пишите решение задачи
-    
+    a,b,c = map(int,input().split())
+    print(a+b >= c and b+c >= a and a+c >= b)
     
 
 # Код ниже не трогать! он нужен для тестов
